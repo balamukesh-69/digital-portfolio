@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Bala Mukesh - Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 80%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        /* Header - Glassmorphism */
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 40px 0;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Navigation */
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background: #ffeb3b;
+            color: black;
+        }
+        
+        /* Sections */
+        section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            margin: 20px auto;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #ffeb3b;
+        }
+        
+        /* Skills Section */
+        .skill-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .skill-card {
+            background: linear-gradient(135deg, #ff7eb3, #6e45e2);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .skill-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+        
+        /* Contact */
+        #contact a {
+            color: #ffeb3b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #6e45e2;
+            color: white;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="images/profile.jpg" alt="T Bala Mukesh" class="profile-pic">
+            <h1>T Bala Mukesh</h1>
+            <p>Creative Web Designer & Frontend Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>🚀 Passionate about designing sleek, modern, and user-friendly websites. I specialize in **UI/UX design, JavaScript, CSS, and HTML**.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>📚 Studied at <strong>Zion HR Secondary School</strong> (2021-2022)</p>
+            <p>🎓 Graduated from <strong>AM Jain College</strong> (2023-2025)</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-card">🎨 UI/UX Design</div>
+                <div class="skill-card">⚡ JavaScript</div>
+                <div class="skill-card">🎨 CSS</div>
+                <div class="skill-card">🌐 HTML</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <p>🏆 Certified Web Developer – ABC Institute</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>📞 <strong>Number:</strong> 638329xxxx</p>
+            <p>📧 <strong>Email:</strong> <a href="mailto:mukesh1234@gmail.com">mukesh1234@gmail.com</a></p>
+           
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 T Bala Mukesh. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
